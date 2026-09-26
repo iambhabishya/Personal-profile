@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Wallpaper Admin — THE BHABISHYA</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="site-frame">
+    <header class="nav">
+      <a class="logo" href="index.html">THE BHABISHYA<span></span></a>
+    </header>
+    <main>
+      <section class="page-intro grid-bg">
+        <p class="eyebrow">ADMIN / WALLPAPERS</p>
+        <h1>UPLOAD<br>NEW <span>WORK.</span></h1>
+        <p>Prepare wallpaper files for the gallery. JPG, PNG and WEBP files up to 8 MB are accepted.</p>
+      </section>
+      <section class="section wallpaper-section">
+        <form class="admin-login" id="adminLogin">
+          <div>
+            <div class="section-label">ADMIN ACCESS</div>
+            <h2>SIGN IN<br>TO <span>UPLOAD.</span></h2>
+          </div>
+          <div class="admin-login-fields">
+            <label>USERNAME<input name="username" autocomplete="username" required></label>
+            <label>PASSWORD<input name="password" type="password" autocomplete="current-password" required></label>
+            <button class="button" type="submit">SIGN IN ↗</button>
+            <p class="form-note" id="adminNote" role="status"></p>
+          </div>
+        </form>
+        <div class="wallpaper-tools admin-tools" id="adminTools" hidden>
+          <label class="upload-control" for="wallpaperUpload">CHOOSE WALLPAPERS <span>+</span><input id="wallpaperUpload" type="file" accept="image/jpeg,image/png,image/webp" multiple></label>
+          <button class="text-link admin-logout" id="adminLogout" type="button">LOG OUT</button>
+          <p class="upload-note">JPG, PNG or WEBP only. Maximum 8 MB per file.</p>
+        </div>
+        <div id="wallpaperGrid" class="wallpaper-grid" aria-live="polite">
+          <p class="wallpaper-empty" id="wallpaperEmpty">NO WALLPAPERS IN THIS BROWSER.</p>
+        </div>
+      </section>
+    </main>
+    <footer class="footer"><span>© 2026 THE BHABISHYA</span><span>ADMIN WORKSPACE</span><span><a href="index.html">EXIT</a></span></footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+THE BHABISHYA PORTFOLIO
+=======================
+
+index.html       Home / hero / selected work / CTA
+works.html       Projects / case studies
+about.html       About / profile / process
+services.html    Services / capabilities
+contact.html     Contact / enquiry form
+style.css        Shared visual system + responsive layout
+script.js        Mobile navigation + scroll reveal + demo form handler
+assets/          Put profile/project images here
+README.md        Setup and customization notes

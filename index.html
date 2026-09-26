@@ -1,225 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8"/>
-<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
-<title>Bhabishya Koirala — Designer & Developer</title>
-<link rel="preconnect" href="https://fonts.googleapis.com"/>
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet"/>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The Bhabishya is a frontend developer and UI/UX designer from Nepal creating responsive websites, digital products and visual systems.">
+  <meta name="author" content="Bhabishya">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="THE BHABISHYA — Frontend Developer">
+  <meta property="og:description" content="Frontend development and UI/UX design by Bhabishya. Explore selected work and services.">
+  <meta property="og:type" content="website">
+  <title>THE BHABISHYA — Frontend Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div class="site-frame">
+    <header class="nav">
+      <a class="logo" href="index.html">THE BHABISHYA<span></span></a>
+      <button class="menu-btn" type="button" aria-expanded="false" aria-controls="primary-navigation" aria-label="Open menu">MENU</button>
+      <nav class="nav-links" id="primary-navigation">
+        <a class="active" href="index.html">Home</a>
+        <a href="works.html">Work</a>
+        <a href="projects.html">Projects</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Service</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
 
-<nav id="navbar">
-  <a class="nav-logo" href="#hero">The Creature<span>.</span></a>
-  <ul class="nav-links">
-    <li><a href="#about">About</a></li>
-    <li><a href="#expertise">Expertise</a></li>
-    <li><a href="#experience">Experience</a></li>
-    <li><a href="#contact" class="nav-cta">Hire Me</a></li>
-  </ul>
-  <button class="hamburger" id="hamburger" aria-label="Menu">
-    <span></span><span></span><span></span>
-  </button>
-</nav>
-
-<div class="mobile-menu" id="mobileMenu">
-  <a href="#about">About</a>
-  <a href="#expertise">Expertise</a>
-  <a href="#experience">Experience</a>
-  <a href="#contact">Hire Me</a>
-</div>
-
-<section id="hero">
-  <div class="hero-glow"></div>
-  <div class="hero-left">
-    <div class="hero-tag"><div class="hero-tag-dot"></div>Open to Opportunities</div>
-    <h1 class="hero-name">Bhabishya<br><span class="outline">Koirala</span></h1>
-    <p class="hero-role">| Frontend Developer  &middot;  Web Designer |</p>
-    <p class="hero-desc">I am a Creative designer blending aesthetics with function  building digital experiences that feel as good as they look.</p>
-    <div class="hero-btns">
-      <a href="#contact" class="btn-primary">
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-        Get in Touch
-      </a>
-      <a href="#expertise" class="btn-secondary">See My Work</a>
-    </div>
-    <div class="hero-stats">
-      <div><div class="hero-stat-num">3+</div><div class="hero-stat-label">Years Experience</div></div>
-      <div><div class="hero-stat-num">5</div><div class="hero-stat-label">Tools Mastered</div></div>
-      <div><div class="hero-stat-num">2</div><div class="hero-stat-label">Roles Held</div></div>
-    </div>
-  </div>
-  <div class="hero-right">
-    <div class="photo-frame">
-      <div class="photo-ring"></div>
-      <div class="photo-ring2"></div>
-      <div class="photo-glow"></div>
-      <div class="photo-line"></div>
-      <div class="photo-dot"></div>
-      <img class="hero-photo" src="Profile.jpeg"alt="Bhabishya Koirala" loading="eager"/>
-      <div class="photo-badge badge-top"><div class="badge-dot"></div>Available for Work</div>
-      <div class="photo-badge badge-bottom">
-        <div class="badge-icon">&#127912;</div>
-        <div><div class="badge-val">UI / UX</div><div class="badge-lbl">Designer</div></div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<div class="marquee" aria-hidden="true">
-  <div class="marquee-track">
-    <span class="marquee-item">Figma <em>&#10022;</em></span>
-    <span class="marquee-item">Adobe Photoshop <em>&#10022;</em></span>
-    <span class="marquee-item">Adobe Illustrator <em>&#10022;</em></span>
-    <span class="marquee-item">UI Design <em>&#10022;</em></span>
-    <span class="marquee-item">UX Design <em>&#10022;</em></span>
-    <span class="marquee-item">Logo Design <em>&#10022;</em></span>
-    <span class="marquee-item">Blender <em>&#10022;</em></span>
-    <span class="marquee-item">DaVinci Resolve <em>&#10022;</em></span>
-    <span class="marquee-item">Poster Design <em>&#10022;</em></span>
-    <span class="marquee-item">Web Design <em>&#10022;</em></span>
-    <span class="marquee-item">Figma <em>&#10022;</em></span>
-    <span class="marquee-item">Adobe Photoshop <em>&#10022;</em></span>
-    <span class="marquee-item">Adobe Illustrator <em>&#10022;</em></span>
-    <span class="marquee-item">UI Design <em>&#10022;</em></span>
-    <span class="marquee-item">UX Design <em>&#10022;</em></span>
-    <span class="marquee-item">Logo Design <em>&#10022;</em></span>
-    <span class="marquee-item">Blender <em>&#10022;</em></span>
-    <span class="marquee-item">DaVinci Resolve <em>&#10022;</em></span>
-    <span class="marquee-item">Poster Design <em>&#10022;</em></span>
-    <span class="marquee-item">Web Design <em>&#10022;</em></span>
-  </div>
-</div>
-
-<section id="about">
-  <div class="reveal">
-    <p class="section-label">About Me</p>
-    <h2 class="section-title">Design that moves people.</h2>
-    <p class="about-text">I'm Bhabishya Koirala, a graphic and UI/UX designer based in Sunsari, Nepal &mdash; currently pursuing BSc (Hons) Computing at Itahari International College.</p>
-    <p class="about-text">I blend design sensibility with technical understanding to build digital products that are visually compelling and deeply functional. Every pixel has purpose.</p>
-    <div class="about-stats">
-      <div class="stat-card reveal"><div class="stat-num">3+</div><div class="stat-desc">Years designing</div></div>
-      <div class="stat-card reveal"><div class="stat-num">5</div><div class="stat-desc">Core tools mastered</div></div>
-      <div class="stat-card reveal"><div class="stat-num">2</div><div class="stat-desc">Professional roles</div></div>
-      <div class="stat-card reveal"><div class="stat-num">&#8734;</div><div class="stat-desc">Ideas in the pipeline</div></div>
-    </div>
-  </div>
-  <div class="about-card reveal">
-    <p class="section-label">Skills &amp; Tools</p>
-    <p class="sg-title">Design Tools</p>
-    <div class="tags">
-      <span class="tag hot">Figma</span><span class="tag hot">Adobe Photoshop</span>
-      <span class="tag hot">Adobe Illustrator</span><span class="tag">Adobe Lightroom</span>
-      <span class="tag">Blender</span><span class="tag">DaVinci Resolve</span>
-    </div>
-    <p class="sg-title">Expertise</p>
-    <div class="tags">
-      <span class="tag hot">UI Design</span><span class="tag hot">UX Design</span>
-      <span class="tag">Logo Design</span><span class="tag">Poster Design</span><span class="tag">Web Design</span>
-    </div>
-    <p class="sg-title">Technology</p>
-    <div class="tags">
-      <span class="tag">Web Development</span><span class="tag">Programming</span>
-      <span class="tag">Database Systems</span><span class="tag">Software Engineering</span>
-    </div>
-    <p class="sg-title">Soft Skills</p>
-    <div class="tags">
-      <span class="tag">Leadership</span><span class="tag">Communication</span>
-      <span class="tag">Critical Thinking</span><span class="tag">Adaptability</span><span class="tag">Teamwork</span>
-    </div>
-  </div>
-</section>
-
-<section id="expertise">
-  <div class="exp-head reveal">
-    <div><p class="section-label">What I Do</p><h2 class="section-title">Areas of Expertise</h2></div>
-    <p>From wireframes to final pixels &mdash; every stage of the design process.</p>
-  </div>
-  <div class="exp-grid stagger">
-    <div class="exp-card reveal"><div class="exp-num">01</div><div class="exp-icon">&#128421;</div><h3 class="exp-title">UI Design</h3><p class="exp-desc">Beautiful, functional interfaces for web and mobile that users love to interact with.</p></div>
-    <div class="exp-card reveal"><div class="exp-num">02</div><div class="exp-icon">&#129517;</div><h3 class="exp-title">UX Design</h3><p class="exp-desc">Seamless user journeys through research-backed decisions and intuitive flows.</p></div>
-    <div class="exp-card reveal"><div class="exp-num">03</div><div class="exp-icon">&#11041;</div><h3 class="exp-title">Logo Design</h3><p class="exp-desc">Impactful brand identities aligned with client vision and built to last.</p></div>
-    <div class="exp-card reveal"><div class="exp-num">04</div><div class="exp-icon">&#127912;</div><h3 class="exp-title">Poster Design</h3><p class="exp-desc">Visually compelling designs for social media and web communication.</p></div>
-    <div class="exp-card reveal"><div class="exp-num">05</div><div class="exp-icon">&#127760;</div><h3 class="exp-title">Web Design</h3><p class="exp-desc">Responsive, modern websites balancing aesthetics with performance.</p></div>
-    <div class="exp-card reveal"><div class="exp-num">06</div><div class="exp-icon">&#128208;</div><h3 class="exp-title">Brand Identity</h3><p class="exp-desc">Cohesive visual systems &mdash; color, type, and texture &mdash; creating memorable brands.</p></div>
-  </div>
-</section>
-
-<section id="experience">
-  <div class="xp-grid">
-    <div class="reveal">
-      <p class="section-label">My Journey</p>
-      <h2 class="section-title">Experience &amp; Education</h2>
-      <div class="edu-card">
-        <div class="edu-period">2025 &mdash; 2027 (Expected)</div>
-        <div class="edu-degree">BSc (Hons) Computing</div>
-        <div class="edu-school">Itahari International College &middot; Itahari</div>
-        <div class="edu-desc">Studying programming, web development, database systems, computer architecture, and software engineering &mdash; combining technical depth with design creativity.</div>
-        <span class="edu-pill">Currently Enrolled</span>
-      </div>
-    </div>
-    <div class="timeline reveal">
-      <div class="tl-item">
-        <div class="tl-dot">&#128444;</div>
-        <div class="tl-body">
-          <div class="tl-period">2022 &mdash; 2023 &middot; Itahari</div>
-          <div class="tl-role">Poster Designer</div>
-          <div class="tl-loc">Freelance / Studio</div>
-          <ul class="tl-desc">
-            <li>Created compelling designs for web and social media</li>
-            <li>Used industry-standard tools with modern design trends</li>
-            <li>Collaborated with teams on consistent brand visuals</li>
-          </ul>
+    <main>
+      <section class="hero grid-bg">
+        <div class="hero-copy">
+          <p class="eyebrow intro-name">ㅤHI, I'M BHABISHYA KOIRALA</p>
+          <h1>FRONTEND<span>.</span></h1>
+          <p class="hero-sub">DEVELOPER AND UI/UX DESIGNER</p>
+          <p class="hero-description">I build clean, fast and expressive digital experiences where <br> design and code work as one.</p>
+          <a class="button" href="works.html">VIEW SELECTED WORKS <span>↗</span></a>
+          <div class="document-links"><a href="cv.html" download>DOWNLOAD CV ↓</a><a href="resume.html" download>DOWNLOAD RESUME ↓</a></div>
         </div>
-      </div>
-      <div class="tl-item">
-        <div class="tl-dot">&#127919;</div>
-        <div class="tl-body">
-          <div class="tl-period">2020 &mdash; 2021 &middot; Kathmandu</div>
-          <div class="tl-role">UI/UX Designer</div>
-          <div class="tl-loc">Design Studio &middot; Kathmandu</div>
-          <ul class="tl-desc">
-            <li>Designed impactful logos aligned with client branding goals</li>
-            <li>Developed user-friendly UI for web applications</li>
-            <li>Collaborated with developers for design consistency</li>
-            <li>Focused on modern trends to enhance user engagement</li>
-          </ul>
+        <div class="hero-image">
+          <img class="profile-image" src="assets/profile.png" alt="Bhabishya portrait">
         </div>
-      </div>
-    </div>
-  </div>
-</section>
+        <div class="hero-index">SCROLL<br>TO EXPLORE ↓</div>
+      </section>
 
-<section id="contact">
-  <div class="reveal">
-    <p class="section-label">Let's Connect</p>
-    <h2 class="contact-title">Ready to build<br>something <span class="hl">great?</span></h2>
-    <p class="contact-sub">Open to freelance projects, full-time roles, and creative collaborations. Let's make something worth remembering.</p>
-    <div class="contact-links">
-      <a href="mailto:koiralabhabishya@gmail.com" class="clink">
-        <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
-        koiralabhabishya@gmail.com
-      </a>
-      <a href="tel:9741777825" class="clink">
-        <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.36 2 2 0 0 1 3.6 1.18h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.5a16 16 0 0 0 6 6l.54-.54a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-        +977 974 177 7825
-      </a>
-      <a href="https://github.com/iambhabishya" target="_blank" rel="noopener" class="clink">
-        <svg viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
-        github.com/iambhabishya
-      </a>
-      <a href="#hero" class="clink clink-accent">Itahari, Nepal &#127475;&#127477;</a>
-    </div>
-  </div>
-</section>
+      <section class="statement section">
+        <div class="section-label">02 / STATEMENT</div>
+        <div class="statement-text">
+          <p>I DESIGN <span>WITH INTENTION.</span><br>I DEVELOP <span>WITH PRECISION.</span></p>
+          <p class="small-copy">My goal is simple: turn ideas into interfaces that feel obvious to use, memorable to see, and solid underneath.</p>
+        </div>
+      </section>
 
-<footer>
-  <span>&copy; 2026 Bhabishya Koirala</span>
-  <span>The Creature</span>
-  <a href="#hero">Back to top &uarr;</a>
-</footer>
-<script src="scripts.js"></script>
+      <section class="story section">
+        <div class="section-label">03 / MY STORY</div>
+        <div class="story-layout">
+          <div class="story-photo"><img src="assets/profile.png" alt="Bhabishya portrait" loading="lazy"></div>
+          <div class="story-copy">
+            <h2>CURIOUS<br>BY <span>NATURE.</span></h2>
+            <p>I started with a curiosity about how good digital experiences are made. That curiosity grew into a practice of shaping interfaces, writing frontend code and paying attention to the details people feel before they can name them.</p>
+            <p>Today I work across design and development, building clear, responsive experiences that give ideas a confident place to live.</p>
+            <a class="text-link" href="about.html">READ THE FULL STORY ↗</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="selected section">
+        <div class="section-heading">
+          <div>
+            <div class="section-label">03 / SELECTED WORKS</div>
+            <h2>RECENT<br>PROJECTS<span>.</span></h2>
+          </div>
+          <a class="text-link" href="projects.html">ALL PROJECTS ↗</a>
+        </div>
+        <div class="project-grid">
+          <a class="project-card" href="projects.html"><b>KARMA LEGAL AND MANAGEMENT FIRM</b><span>WEBSITE DESIGN / DEVELOPMENT</span></a>
+          <a class="project-card" href="projects.html"><b>HAMRO BEANS WEBSITE</b><span>WEBSITE DESIGN / DEVELOPMENT</span></a>
+          <a class="project-card" href="projects.html"><b>GARMENT MANAGEMENT SYSTEM</b><span>SOFTWARE / UI DESIGN</span></a>
+          <a class="project-card" href="projects.html"><b>BLIND STICK IOT PROJECT</b><span>IOT / HARDWARE</span></a>
+          <a class="project-card" href="projects.html"><b>BABY NEST</b><span>CHILDREN HEALTH MANAGEMENT SYSTEM</span></a>
+          <a class="project-card" href="projects.html"><b>Nexa</b><span>WEBSITE DESIGN / DEVELOPMENT</span></a>
+        </div>
+      </section>
+
+      <section class="tech-section section">
+        <div class="section-heading">
+          <div>
+            <div class="section-label">05 / TECH STACK</div>
+            <h2>TOOLS I<br><span>TRUST.</span></h2>
+          </div>
+          <p class="tech-intro">A practical toolkit for turning strong ideas into fast, responsive and maintainable digital experiences.</p>
+        </div>
+        <div class="tech-grid">
+          <div><span>01</span><strong>HTML</strong><small>SEMANTIC STRUCTURE</small></div>
+          <div><span>02</span><strong>CSS</strong><small>LAYOUT + MOTION</small></div>
+          <div><span>03</span><strong>JAVASCRIPT</strong><small>INTERACTION + LOGIC</small></div>
+          <div><span>03</span><strong>PYTHON</strong><small>SYSTEM DEVELOPMENT</small></div>
+          <div><span>04</span><strong>REACT</strong><small>PRODUCT INTERFACES</small></div>
+          <div><span>05</span><strong>FIGMA</strong><small>UI / UX SYSTEMS</small></div>
+          <div><span>06</span><strong>NODE.JS</strong><small>BACKEND + APIS</small></div>
+          <div><span>07</span><strong>GIT</strong><small>VERSION CONTROL</small></div>
+          <div><span>08</span><strong>GITHUB</strong><small>COLLABORATION + DEPLOY</small></div>
+          <div><span>09</span><strong>SQL</strong><small>DATA + STORAGE</small></div>
+        </div>
+      </section>
+
+      <section class="social-section section">
+        <div class="section-label">06 / CONNECT</div>
+        <div class="social-strip">
+          <p>FIND ME ONLINE</p>
+          <div class="socials" aria-label="Social media links">
+            <a href="https://github.com/iambhabishya" target="_blank" rel="noopener noreferrer">GITHUB ↗</a>
+            <a href="https://www.linkedin.com/in/bhabishya-koirala-6391882a6/" target="_blank" rel="noopener noreferrer">LINKEDIN ↗</a>
+            <a href="https://www.instagram.com/bha_bishya10/" target="_blank" rel="noopener noreferrer">INSTAGRAM ↗</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta section grid-bg">
+        <p class="eyebrow">07 / HAVE A PROJECT?</p>
+        <h2>LET'S MAKE<br>SOMETHING <span>GOOD.</span></h2>
+        <a class="button" href="contact.html">START A CONVERSATION ↗</a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>© 2026 THE BHABISHYA</span>
+      <span>FRONTEND / UI / UX</span>
+      <span>NEPAL</span>
+    </footer>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
